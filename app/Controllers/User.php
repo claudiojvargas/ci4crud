@@ -30,7 +30,9 @@ class User extends BaseController
                 'message' =>'Usuário Excluido com Sucesso'
             ]);
         }else{
-            echo 'Erro';
+            echo view('messages', [
+                'message' =>'Ocorreu um erro ao Excluir aluno'
+            ]);
         }
     }
 
