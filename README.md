@@ -8,10 +8,11 @@ Este CRUD simples foi criado com o Framework PHP CodeIgniter na versão 4.1
 
 # 📁 Acesso ao projeto
 
-**O projeto pode ser clonado pelo o link**
+1. Clone the source code
+
+ `git clone https://github.com/claudiojvargas/ci4crud`
 
 # 🛠️ Abrir e rodar o projeto
-**Para executar este projeto em servidor local você vai precisar ter o PHP na versão 7.4 ou superior**
+**Para executar este projeto em servidor local você vai precisar ter o PHP na versão 7.4 ou superior. o**
 
 
-Renomeie o arquivo `env` para `.env`.
