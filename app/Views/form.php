@@ -12,7 +12,7 @@
     <div class="w-25 container mt-5">
         <?php echo form_open_multipart('user/store'); ?>
         <form class="form-group">
-            <div class="text-center mb-3"><img class="rounded-circle" src="<?php echo isset($aluno['img_perfil']) ? base_url("assets/upload/image/perfil/{$aluno['img_perfil']}"): ''; ?>" width="150" height="150" /></div>
+            <div class="text-center mb-3"><img class="rounded-circle" src="<?php echo isset($aluno['img_perfil']) ? base_url("assets/upload/image/perfil/{$aluno['img_perfil']}"): base_url("assets/upload/image/perfil/avatar.jpg"); ?>" width="150" height="150" /></div>
             <label for="name">Nome</label>
             <input type="text" name="name" value="<?php echo isset($aluno['name']) ? $aluno['name'] : '' ?>" id="name" class="form-control mt-2 mb-3" require>
             <label for="adress">Endereço</label>
