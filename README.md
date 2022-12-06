@@ -12,3 +12,6 @@ Este CRUD simples foi criado com o Framework PHP CodeIgniter na versão 4.1
 
 # 🛠️ Abrir e rodar o projeto
 **Para executar este projeto em servidor local você vai precisar ter o PHP na versão 7.4 ou superior**
+
+
+Renomeie o arquivo ´env´ para ´.env´.
