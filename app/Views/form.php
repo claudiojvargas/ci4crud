@@ -14,11 +14,11 @@
         <form class="form-group">
             <div class="text-center mb-3"><img class="rounded-circle" src="<?php echo isset($aluno['img_perfil']) ? base_url("assets/upload/image/perfil/{$aluno['img_perfil']}"): base_url("assets/upload/image/perfil/avatar.jpg"); ?>" width="150" height="150" /></div>
             <label for="name">Nome</label>
-            <input type="text" name="name" value="<?php echo isset($aluno['name']) ? $aluno['name'] : '' ?>" id="name" class="form-control mt-2 mb-3" require>
+            <input type="text" name="name" value="<?php echo isset($aluno['name']) ? $aluno['name'] : '' ?>" id="name" class="form-control mt-2 mb-3" required>
             <label for="adress">Endereço</label>
-            <input type="text" name="adress"  value="<?php echo isset($aluno['adress']) ? $aluno['adress'] : '' ?>" id="adress" class="form-control mt-2 mb-3" require>
+            <input type="text" name="adress"  value="<?php echo isset($aluno['adress']) ? $aluno['adress'] : '' ?>" id="adress" class="form-control mt-2 mb-3" required>
             <label for="img-perfil">Nova foto de Perfil</label>
-            <input type="file" accept="image/jpeg" name="img_perfil" id="img-perfil" class="form-control mt-2 mb-3" require>
+            <input type="file" accept="image/jpeg" name="img_perfil" id="img-perfil" class="form-control mt-2 mb-3" required>
             
             <input type="hidden" name="perfil_img" value="<?php echo isset($aluno['img_perfil']) ? $aluno['img_perfil'] : '' ?>">
             <input type="hidden" name='id' value="<?php echo isset($aluno['id']) ? $aluno['id'] : '' ?>">
